@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-Demo.iml" group="Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Demo.iml" group="Demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multimode_lifesearch/Demo-multimode_lifesearch.iml" filepath="$PROJECT_DIR$/.idea/modules/multimode_lifesearch/Demo-multimode_lifesearch.iml" group="Demo/multimode_lifesearch" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/setsteptime/Demo-setsteptime.iml" filepath="$PROJECT_DIR$/.idea/modules/setsteptime/Demo-setsteptime.iml" group="Demo/setsteptime" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test2/Demo-test2.iml" filepath="$PROJECT_DIR$/.idea/modules/test2/Demo-test2.iml" group="Demo/test2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usbtest/Demo-usbtest.iml" filepath="$PROJECT_DIR$/.idea/modules/usbtest/Demo-usbtest.iml" group="Demo/usbtest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifesearch_xa/lifesearch_xa.iml" filepath="$PROJECT_DIR$/.idea/modules/lifesearch_xa/lifesearch_xa.iml" group="Demo/lifesearch_xa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifesearchapp/lifesearchapp.iml" filepath="$PROJECT_DIR$/.idea/modules/lifesearchapp/lifesearchapp.iml" group="Demo/lifesearchapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multimode_lifesearch/multimode_lifesearch.iml" filepath="$PROJECT_DIR$/.idea/modules/multimode_lifesearch/multimode_lifesearch.iml" group="Demo/multimode_lifesearch" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/setsteptime/setsteptime.iml" filepath="$PROJECT_DIR$/.idea/modules/setsteptime/setsteptime.iml" group="Demo/setsteptime" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test2/test2.iml" filepath="$PROJECT_DIR$/.idea/modules/test2/test2.iml" group="Demo/test2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usbtest/usbtest.iml" filepath="$PROJECT_DIR$/.idea/modules/usbtest/usbtest.iml" group="Demo/usbtest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wifitest/wifitest.iml" filepath="$PROJECT_DIR$/.idea/modules/wifitest/wifitest.iml" group="Demo/wifitest" />
+    </modules>
+  </component>
+</project>

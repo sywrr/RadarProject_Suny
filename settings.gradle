@@ -1,0 +1,8 @@
+include ':setsteptime'
+include ':wifitest'
+include ':usbtest'
+include ':test2'
+include ':lifesearch_xa'
+include ':lifesearchapp'
+include ':multimode_lifesearch'
+rootProject.name = "Demo"

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutAntenfrqSel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="天线主频 "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupAntenFrq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_AL2000M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="AL2000MHz"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_AL1500M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="AL1500MHz"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_AL1000M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="AL1000MHz"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC2000M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC2000MHz"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC1500M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC1500MHz"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC900HF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC900HF"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC400HF"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/radio"
+                    android:text="GC400HF"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC100HF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC100HF"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC400M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC400MHz"
+                    android:textColor="@color/black"
+                   />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC270M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC270MHz"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC150M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC150MHz"
+                    android:textColor="@color/black"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC100M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC100MHz"
+                    android:textColor="@color/black"
+                   />
+ 
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC100S"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/radio"
+                    android:text="GC100S"
+                    android:textColor="@color/black" /> 
+
+                <RadioButton
+                    android:id="@+id/radioAntenfrq_GC50M"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio"
+                    android:text="GC50M"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 分割线 -->
+
+    <include layout="@layout/layout_cutline" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonAntenfrqParamsOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确 定"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonAntenfrqParamsCANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取 消"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

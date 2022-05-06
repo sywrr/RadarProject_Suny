@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	tools:context="com.ltd.lifesearch_xa.LifeSearchActivity"  >
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="0.70"
+	    android:orientation="vertical"
+	    android:showDividers="end"
+		android:divider="?android:attr/listDivider" >
+	
+		<com.ltd.lifesearch_xa.AnimationView
+	        android:id="@+id/view_detect"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+		
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="0.1"
+	    android:layout_gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginRight="10dip" >
+		
+	    <TextView
+	        android:id="@+id/text_radarstatus"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="@string/radar_status"
+	        android:textSize="25dp" />
+	    
+	    <TextView
+	        android:id="@+id/edit_radarstatus"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:background="@android:drawable/editbox_background"
+	        android:text=""
+	        android:textSize="30dp" />
+	  
+	</LinearLayout> 
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="0.1"
+	    android:layout_gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginRight="10dip" >
+	    
+	    <TextView
+	        android:id="@+id/text_radarresult"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text="@string/radar_result"
+	        android:textSize="25dp" />
+	    
+	    <TextView
+	        android:id="@+id/edit_radarresult"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:background="@android:drawable/editbox_background"
+	        android:text=""
+	        android:textSize="30dp" />
+	
+	</LinearLayout>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="0.1"
+	    android:layout_margin="10dip"
+	    android:baselineAligned="false"
+	    android:layout_gravity="center_vertical"
+	    android:orientation="horizontal" >
+		
+		<LinearLayout
+		    android:layout_width="0dip"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="0.5"
+		    android:orientation="vertical" >
+		    
+		    <Button
+		        android:id="@+id/button_begindetect"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_gravity="center_horizontal"
+		        android:layout_marginLeft="10dip"
+		        android:layout_marginRight="10dip"
+		        android:background="@drawable/x_begindetect" />
+		</LinearLayout>
+	 
+		<LinearLayout
+		    android:layout_width="0dip"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="0.5"
+		    android:orientation="vertical" >
+		    
+		    <Button
+		        android:id="@+id/button_sendresult"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_gravity="center_horizontal"
+		        android:layout_marginLeft="10dip"
+		        android:layout_marginRight="10dip"
+		        android:background="@drawable/x_browseresult" />
+		
+		</LinearLayout>
+	    //sunyan 2021.8.30 add begin
+	    <LinearLayout
+		    android:layout_width="0dip"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center_vertical"
+		    android:layout_weight="0.5"
+		    android:orientation="vertical" >
+		    
+		    <Button
+		        android:id="@+id/button_selectoperation"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_gravity="center_horizontal"
+		        android:layout_marginLeft="10dip"
+		        android:layout_marginRight="10dip"
+		        android:background="@drawable/x_browseresult" />
+		
+		</LinearLayout>
+	    //sunyan 2021.8.30 add end
+	</LinearLayout>  
+    
+
+</LinearLayout>

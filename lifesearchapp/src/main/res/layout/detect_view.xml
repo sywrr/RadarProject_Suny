@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detect_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:baselineAligned="false">
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/signal"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="30%" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="信号强度"
+                    android:layout_below="@id/signal" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/radar_state"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="40%" />
+
+                <TextView
+                    android:id="@+id/radar_stating"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="雷达连接状态"
+                    android:layout_below="@id/radar_state" />
+
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/battery"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="35%" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="平板电量"
+                    android:layout_below="@id/battery" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/disk"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/disk"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="35%" />
+
+                <TextView
+                    android:id="@+id/disk_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/detect_disk_text"
+                    android:layout_below="@id/disk" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/device_battery"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="40%" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="设备电量"
+                    android:layout_below="@id/device_battery" />
+            </android.support.percent.PercentRelativeLayout>
+
+        </TableLayout>
+
+        <com.ltd.lifesearchapp.DetectAnimationView
+            android:id="@+id/detect_animation_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+        </com.ltd.lifesearchapp.DetectAnimationView>
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="5">
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/detect_button"
+                    android:scaleType="fitCenter"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@null"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="40%" />
+
+                <TextView
+                    android:id="@+id/detect_button_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="开始探测"
+                    android:layout_below="@id/detect_button" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/auto_detect_button"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/document_save"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="40%" />
+
+                <TextView
+                    android:id="@+id/auto_detect_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="自动搜寻"
+                    android:layout_below="@id/auto_detect_button" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/check_button"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="50%" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="区分动物"
+                    android:layout_below="@id/check_button" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/wifi_button"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/setting_wifi"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="35%" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="配置网络"
+                    android:layout_below="@id/wifi_button" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/exit_button"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/exit"
+                    app:layout_heightPercent="50%"
+                    android:layout_centerHorizontal="true"
+                    app:layout_widthPercent="35%" />
+
+                <TextView
+                    android:id="@+id/exit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="退出程序"
+                    android:layout_below="@id/exit_button" />
+                <TextView
+                    android:id="@+id/fileName_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="当前保存的文件名："
+                    android:textColor="#ff0000"
+                    android:layout_below="@id/exit_text" />
+            </android.support.percent.PercentRelativeLayout>
+        </TableLayout>
+    </LinearLayout>
+</TableLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutfragment_middle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/layout_hRuler"
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.05" >
+
+        <com.ltdpro.HRulerView
+            android:id="@+id/viewHRuler"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.ltdpro.HRulerView>
+    </LinearLayout>
+
+    <!-- 2016.6.10 回放时使用的水平标尺 -->
+
+    <LinearLayout
+        android:id="@+id/layout_BhRuler"
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.0"
+        android:visibility="invisible" >
+
+        <com.ltdpro.BackPlayHRulerView
+            android:id="@+id/viewBHRuler"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.ltdpro.BackPlayHRulerView>
+    </LinearLayout>
+    <!-- 2016.6.10 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.95"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_VTWRuler"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1" >
+
+            <com.ltdpro.VTWRulerView
+                android:id="@+id/viewVTWRuler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </com.ltdpro.VTWRulerView>
+        </LinearLayout>
+
+
+
+        <!-- 2016.6.10 回放时使用的 时间标尺 -->
+
+        <LinearLayout
+            android:id="@+id/layout_BVTWRuler"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:visibility="invisible" >
+
+            <com.ltdpro.BackPlayVRulerView
+                android:id="@+id/viewBVTWRuler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </com.ltdpro.BackPlayVRulerView>
+        </LinearLayout>
+        <!-- 2016.6.10 -->
+
+        <LinearLayout
+            android:id="@+id/layout_realtimeview"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8" >
+
+            <com.ltdpro.realTimeDIBView
+                android:id="@+id/layoutRealView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </com.ltdpro.realTimeDIBView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_backplayview"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:orientation="horizontal" >
+            <com.ltdpro.backPlayDIBView
+                android:id="@+id/layoutBackPlayView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </com.ltdpro.backPlayDIBView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_VDDRuler"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1" >
+
+            <com.ltdpro.VRulerView
+                android:id="@+id/viewDDRuler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </com.ltdpro.VRulerView>
+        </LinearLayout>
+
+        <!-- 2016.6.10 回放时使用的 深度标尺 -->
+
+        <LinearLayout
+            android:id="@+id/layout_BVDDRuler"
+            android:layout_width="0sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:visibility="invisible" >
+
+            <com.ltdpro.BackPlayVRulerView
+                android:id="@+id/viewBDDRuler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </com.ltdpro.BackPlayVRulerView>
+        </LinearLayout>
+        <!-- 2016.6.10 -->
+
+    </LinearLayout>
+
+</LinearLayout>

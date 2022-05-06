@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="false" >
+    
+    <item android:title="Starting Distance" >
+    <menu>
+	    <item 
+	        android:id="@+id/beginpos0" 
+	        android:title="@string/beginpos0" />
+	    
+	    <item 
+	        android:id="@+id/beginpos3"
+	        android:title="@string/beginpos3" />
+	    
+	    <item 
+	        android:id="@+id/beginpos6"
+	        android:title="@string/beginpos6" />
+	    
+	    <item 
+	        android:id="@+id/beginpos9"
+	        android:title="@string/beginpos9" />
+	    
+	    <item 
+	        android:id="@+id/beginpos12"
+	        android:title="@string/beginpos12" />
+	    
+	    <item 
+	        android:id="@+id/beginpos15"
+	        android:title="@string/beginpos15" />
+	    
+	    <item 
+	        android:id="@+id/beginpos18"
+	        android:title="@string/beginpos18" />
+	    
+	    <item 
+	        android:id="@+id/beginpos21"
+	        android:title="@string/beginpos21" />
+	    
+	    <item 
+	        android:id="@+id/beginpos24"
+	        android:title="@string/beginpos24" />
+	    
+	    <item 
+	        android:id="@+id/beginpos27"
+	        android:title="@string/beginpos27" />
+	    
+	    <item 
+	        android:id="@+id/beginpos30"
+	        android:title="@string/beginpos30" />
+    </menu>
+	</item>
+	
+    <item 
+        android:id="@+id/singletarget"
+        android:title="@string/singletarget" 
+        android:checkable="true"
+        android:checked="false" />
+    <item 
+        android:id="@+id/multitarget"
+        android:title="@string/multitarget"
+        android:checkable="true"
+        android:checked="true" />
+    <item 
+        android:id="@+id/detectmode"
+        android:title="@string/detectmode"
+        android:checkable="true"
+        android:checked="true" />
+    
+    <item 
+        android:id="@+id/promode"
+        android:title="@string/promode"
+        android:checkable="true"
+        android:checked="false" />
+    <!--  
+    <item 
+        android:id="@+id/sigpos"
+        android:title="@string/sigpos" />
+        -->
+
+</menu>

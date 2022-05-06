@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/select_detect_result"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:text="选择探测结果文件" />
+
+    <ListView
+        android:id="@+id/detect_result_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/select_detect_result"
+        android:layout_toRightOf="@id/select_detect_result"
+        android:background="#ffffff"
+        android:divider="#696969"
+        android:dividerHeight="2dp"
+        android:headerDividersEnabled="false" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LTD-90B</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="radar_status">Radar Status:</string>
+    <string name="radar_result">Detect Result:</string>
+    <string name="detect_time">Detection Time:</string>R
+    <string name="net_status">Connection Status:</string>
+    <string name="battery_status">电池电量:</string>
+    <string name="phone_number">电话号码:</string>
+    <string name="beginpos0">0M</string>
+    <string name="beginpos3">3M</string>
+    <string name="beginpos6">6M</string>
+    <string name="beginpos9">9M</string>
+    <string name="beginpos12">12M</string>
+    <string name="beginpos15">15M</string>
+    <string name="beginpos18">18M</string>
+    <string name="beginpos21">21M</string>
+    <string name="beginpos24">24M</string>
+    <string name="beginpos27">27M</string>
+    <string name="beginpos30">30M</string>
+	<string name="singletarget">Single-Target Mode</string>
+	<string name="multitarget">Multi-Target Mode</string>
+	<string name="detectmode">Detection Mode</string>
+	<string name="promode">Expert Mode</string>
+	<string name="sigpos">Signal Location</string>
+	<string name="sigpos_text">Signal Location：</string>
+	
+	<color name="blue">#FF3385F8</color>
+	<color name="back">#FFE8E8E7</color>
+
+</resources>

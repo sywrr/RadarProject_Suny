@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/detect_small_range_window">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detect_small_range_1"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="0-3米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_2"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="3-6米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_3"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="6-9米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_4"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="9-12米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_5"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="12-15米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_6"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="15-18米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_7"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="18-21米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_8"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="21-24米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_9"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="24-27米"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/detect_small_range_10"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="27-30米"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

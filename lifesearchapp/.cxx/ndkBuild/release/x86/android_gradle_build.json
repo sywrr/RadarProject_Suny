@@ -1,0 +1,62 @@
+{
+  "buildFiles": [
+    "C:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\25310\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\25310\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "RadarData-release-x86": {
+      "buildCommand": "C:\\Users\\25310\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj/local/x86/libRadarData.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "RadarData",
+      "files": [
+        {
+          "src": "C:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\com_ltd_lifesearchapp_RadarData.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/25310/AppData/Local/Android/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O2 -DNDEBUG -IC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "C:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libRadarData.so"
+    },
+    "Detect-release-x86": {
+      "buildCommand": "C:\\Users\\25310\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj/local/x86/libDetect.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "Detect",
+      "files": [
+        {
+          "src": "C:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\Detect\\com_ltd_lifesearchapp_Detect_DetectUtil.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/25310/AppData/Local/Android/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O2 -DNDEBUG -IC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "C:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libDetect.so"
+    },
+    "DetectRadarData-release-x86": {
+      "buildCommand": "C:\\Users\\25310\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/build/intermediates/ndkBuild/release/obj/local/x86/libDetectRadarData.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "DetectRadarData",
+      "files": [
+        {
+          "src": "C:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\jni\\RadarData\\com_ltd_lifesearchapp_Detect_RadarData.cpp",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/25310/AppData/Local/Android/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O2 -DNDEBUG -IC:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/jni -DANDROID -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "C:\\Users\\25310\\AndroidStudioProjects\\Demo\\lifesearchapp\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libDetectRadarData.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "C:\\Users\\25310\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\25310\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

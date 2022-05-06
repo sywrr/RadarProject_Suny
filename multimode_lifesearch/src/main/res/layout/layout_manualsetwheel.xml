@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_gray"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="参数列表:"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/listView_checkfile"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_editfilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生成新文件"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/newcheckfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user_1"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="直径(mm):"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edittext_setdiameter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:focusable="true"
+            android:nextFocusDown="@+id/mc100"
+            android:text="773"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="脉冲数:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupAntenPlus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:enabled="false"
+            android:focusable="true">
+
+            <RadioButton
+                android:id="@+id/mc100"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio"
+                android:text="100"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/mc500"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio"
+                android:text="500"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/mc1024"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio"
+                android:text="1024"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/mc2048"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio"
+                android:text="2048"
+                android:textColor="@color/black" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonSavecheckfileOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:nextFocusDown="@+id/buttonSaveparamfileCANCEL"
+            android:text="确 定"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSavecheckfileCANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:nextFocusDown="@+id/buttonDeleteParamFile"
+            android:nextFocusUp="@+id/buttonSaveparamfileOK"
+            android:text="取 消"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonDeleteCheckFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:nextFocusUp="@+id/buttonSaveparamfileCANCEL"
+            android:text="删除文件"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

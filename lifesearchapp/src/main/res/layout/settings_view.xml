@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="参数设置"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/settings_key"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="20dp"
+                    android:gravity="right"
+                    android:weightSum="6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:text="探测模式"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:text="探测距离" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:text="探测环境" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:text="探测间隔" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:text="自动监测" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center_vertical|right"
+                        android:text="距离校准"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/settings_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:orientation="vertical"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:weightSum="6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="单目标模式"
+                        android:textColor="#000000"
+                        android:gravity="left|center_vertical"
+                        android:clickable="true"
+                        android:id="@+id/detect_mode"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="left|center_vertical"
+                        android:id="@+id/detect_range"
+                        android:text="0-12米" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="left|center_vertical"
+                        android:text="混凝土" />
+
+                    <TextView
+                        android:id="@+id/detect_interval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="left|center_vertical"
+                        android:text="12米" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="left|center_vertical"
+                        android:text="开" />
+
+                    <EditText
+                        android:id="@+id/distance_check"
+                        android:layout_width="50dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:selectAllOnFocus="true"
+                        android:inputType="number"
+                        android:text="60"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </TableLayout>
+</ScrollView>

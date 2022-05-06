@@ -1,0 +1,18 @@
+Executable : C:\Users\25310\AppData\Local\Android\Sdk\ndk\21.3.6528147\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=C:\Users\25310\AndroidStudioProjects\Demo\test2\src\jni\Android2.mk
+NDK_APPLICATION_MK=C:\Users\25310\AndroidStudioProjects\Demo\test2\src\jni\Application.mk
+APP_ABI=armeabi-v7a
+NDK_ALL_ABIS=armeabi-v7a
+NDK_DEBUG=0
+APP_PLATFORM=android-16
+NDK_OUT=C:/Users/25310/AndroidStudioProjects/Demo/test2/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=C:\Users\25310\AndroidStudioProjects\Demo\test2\build\intermediates\ndkBuild\release\lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+Build command args:

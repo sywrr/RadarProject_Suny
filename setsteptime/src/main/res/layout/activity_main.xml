@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_stepTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/pk_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="延时间隔"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pk_name"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/st_baudrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25sp"
+            android:paddingTop="110sp"
+            android:text="@string/baudrate"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner_baudrate"
+            android:layout_width="150px"
+            android:layout_height="40px"
+            android:layout_below="@+id/st_baudrate"
+            android:drawSelectorOnTop="true"
+            android:gravity="center"
+            android:paddingLeft="50sp" />
+
+        <Button
+            android:id="@+id/bt_certain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner_baudrate"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:nextFocusDown="@+id/edit_number"
+            android:text="确定"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner_baudrate"
+            android:layout_toRightOf="@id/bt_certain"
+            android:text="取消"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingLeft="150dp"
+        android:paddingTop="15dp"
+        android:text="v2.20"
+        android:textSize="15sp" />
+
+</RelativeLayout>

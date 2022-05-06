@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="40dp" >
+
+    <!-- 回放时使用的设置菜单 -->
+    <Button
+        android:id="@+id/bt_pbbackg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/removbackground"
+        android:text="去背景"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_pbzoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/autohardplus"
+        android:text="▲调增益▼"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_pbxzoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/zoom"
+        android:text="▲缩放▼ "
+        android:textSize="15sp" />
+
+</LinearLayout>

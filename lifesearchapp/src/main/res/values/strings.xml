@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SER-10</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="radar_status">雷达状态:</string>
+    <string name="radar_result">探测结果:</string>
+    <string name="detect_time">探测时间:</string>
+    <string name="net_status">连接状态:</string>
+    <string name="battery_status">电池电量:</string>
+    <string name="phone_number">电话号码:</string>
+    <string name="beginpos0">0米</string>
+    <string name="beginpos3">3米</string>
+    <string name="beginpos6">6米</string>
+    <string name="beginpos9">9米</string>
+    <string name="beginpos12">12米</string>
+    <string name="beginpos15">15米</string>
+    <string name="beginpos18">18米</string>
+    <string name="beginpos21">21米</string>
+    <string name="beginpos24">24米</string>
+    <string name="beginpos27">27米</string>
+    <string name="beginpos30">30米</string>
+    <string name="singletarget">单目标模式</string>
+    <string name="multitarget">多目标模式</string>
+    <string name="detectmode">探测模式</string>
+    <string name="promode">专家模式</string>
+    <string name="sigpos">信号位置</string>
+    <string name="sigpos_text">信号位置：</string>
+    <string name="menu_title">起始距离</string>
+    <string name="detect_disk_text">"平板容量:\n%sGB/%sGB"</string>
+</resources>

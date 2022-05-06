@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expert_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/left"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_widthPercent="16%">
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/realtime_data"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="实时数据"
+            android:textColor="#000000"/>
+        <Button
+            android:layout_marginTop="150dp"
+            android:id="@+id/playback_file"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="回放文件"
+            android:textColor="#000000"/>
+    </android.support.percent.PercentRelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/surface_view"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/left"
+        android:layout_toRightOf="@id/left"
+        android:orientation="vertical"
+        app:layout_widthPercent="68%">
+
+        <com.ltd.lifesearchapp.RadarRulerView
+            android:id="@+id/radar_ruler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.ltd.lifesearchapp.RadarDataView
+            android:id="@+id/radar_data_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/surface_view"
+        android:layout_toRightOf="@id/surface_view"
+        app:layout_widthPercent="16%">
+
+    </LinearLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

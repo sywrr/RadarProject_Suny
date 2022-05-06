@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/translucent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_stepTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/pk_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="延时间隔"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:id="@+id/pk_steptime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pk_name" >
+
+            <TextView
+                android:id="@+id/pk_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:text="."
+                android:textSize="40sp" />
+
+            <NumberPicker
+                android:id="@+id/pk_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/pk_dot"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <NumberPicker
+                android:id="@+id/pk_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/pk_dot"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <NumberPicker
+                android:id="@+id/pk_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/pk_second"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <NumberPicker
+                android:id="@+id/pk_fourth"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/pk_third"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+        </RelativeLayout>
+        
+        <Button 
+            android:id="@+id/bt_certain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pk_steptime"
+            android:text="确定"
+            android:textSize="30sp"/>
+        <Button 
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bt_certain"
+            android:text="取消"
+            android:textSize="30sp"/>
+    </RelativeLayout>
+</RelativeLayout>

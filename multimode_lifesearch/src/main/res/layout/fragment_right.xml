@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutfragment_right"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff" >
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="5sp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#e1e1e1" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/v"
+        android:text="单道波形(增益调节)" >
+    </TextView>
+
+    <com.ltdpro.scanView
+        android:id="@+id/viewSinglewave"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/text2"
+        android:layout_gravity="right"
+        android:layout_toRightOf="@id/v"
+        android:background="#ffffff" />
+
+    <com.ltdpro.BackplayScanView
+        android:id="@+id/backplayScanview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/text2"
+        android:layout_gravity="right"
+        android:layout_toRightOf="@id/v"
+        android:background="#ffffff"
+        android:visibility="invisible" >
+    </com.ltdpro.BackplayScanView>
+
+</RelativeLayout>

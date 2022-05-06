@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/blue_gray"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="雷达参数列表:" 
+        />
+	<ListView 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:textSize="20sp"
+		android:id="@+id/listView_radarparams"
+	/>
+	<CheckBox
+	    android:layout_width="wrap_content"
+	    android:layout_height = "wrap_content"
+	    android:textSize="20sp"
+	    android:id="@+id/checkbox_editfilename" 
+	    android:text="生成新文件"
+	    />
+	<EditText 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:textSize="20sp"
+		android:id="@+id/editView_saveparamfilename"
+		android:nextFocusDown="@+id/buttonSaveparamfileOK"
+	/>
+	<LinearLayout android:layout_gravity="center_horizontal" 
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        > 
+        <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonSaveparamfileOK"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			android:text="确 定" 
+			android:nextFocusDown="@+id/buttonSaveparamfileCANCEL"
+			/>
+    	
+	    <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonSaveparamfileCANCEL"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			android:text="取 消" 
+			android:nextFocusDown="@+id/buttonDeleteParamFile"
+			android:nextFocusUp="@+id/buttonSaveparamfileOK"
+			/>
+	    
+	    <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonDeleteParamFile"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			android:text="删除文件" 
+			android:nextFocusUp="@+id/buttonSaveparamfileCANCEL"
+			/>
+    </LinearLayout>
+</LinearLayout>

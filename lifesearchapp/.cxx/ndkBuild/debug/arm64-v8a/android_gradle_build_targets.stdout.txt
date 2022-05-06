@@ -1,0 +1,3 @@
+make: Nothing to be done for 'Detect'.
+make: Nothing to be done for 'DetectRadarData'.
+[arm64-v8a] Prebuilt       : libgpr.so <= C:/Users/25310/AndroidStudioProjects/Demo/lifesearchapp/jni/Test/arm64-v8a/

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutfragment_left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dip" >
+    </TextView>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/title"
+        android:background="@drawable/deepgray" />
+
+    <ExpandableListView
+        android:id="@+id/explv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+         android:background="#ffffff" 
+         >
+    </ExpandableListView>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/explv"
+        android:background="#e1e1e1" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#e1e1e1" />
+
+</RelativeLayout>
